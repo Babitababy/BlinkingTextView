@@ -8,9 +8,24 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/blinkTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="WELCOME TO GEEKSFORGEEKS"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blink"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:onClick="action_button"
 
         />
 
